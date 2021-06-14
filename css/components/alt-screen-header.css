@@ -1,0 +1,27 @@
+.alt-screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  padding: 30px var(--horizontal-space);
+  box-sizing: border-box;
+  font-weight: 600;
+  font-size: 25px;
+  position: fixed;
+  top: 15px;
+}
+.alt-screen-header__column:first-child {
+  width: 20%;
+}
+.alt-screen-header__column:nth-child(2) {
+  width: 60%;
+  text-align: center;
+}
+.alt-screen-header__column:last-child {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+.alt-screen-header__column span:last-child {
+  margin-left: 20px;
+}

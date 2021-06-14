@@ -1,0 +1,15 @@
+.suggestions-header {
+  border-top: var(--main-border);
+  padding: 20px 0;
+  font-weight: 600;
+}
+.suggestions span {
+  color: gray;
+  width: 110px;
+  padding-top: 0;
+  height: 35px;
+}
+.suggestions img {
+  width: 50px;
+  border-radius: 10%;
+}

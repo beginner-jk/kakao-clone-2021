@@ -1,0 +1,35 @@
+.settings-list:first-child {
+  padding: 100px 0 0;
+}
+.settings-setting {
+  padding: 24px 0;
+  font-size: 22px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  font-weight: lighter;
+  opacity: 0.85;
+  display: flex;
+  justify-content: space-between;
+}
+.settings-setting i {
+  padding-right: 15px;
+}
+.settings-setting .badge--sm {
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.settings-setting:last-child {
+  border-style: none;
+}
+.settings-setting__column {
+  display: flex;
+  align-items: center;
+}
+.settings-setting__column:last-child {
+  opacity: 0.6;
+}
+.divide-line {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 8px 0;
+  margin: 5px 0 20px;
+}
